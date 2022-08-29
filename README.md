@@ -12,7 +12,7 @@ In the root of the project open the terminal and execute the commands below.
 	$ docker build -t app-test .
 	
 	# Running your image mapping the project's volume (on 
-	# container) with your project's files (in # # your 
+	# container) with your project's files (in your 
 	# machine host) and exposing the project execution on 
 	# port 3000 (localhost).
 
