@@ -2,8 +2,6 @@
 # Description
 Exploring a little Docker and Docker Compose technologies. Below there are some instructions if you want to run, being possible to run only with Docker installed on your machine as well as with Docker Compose.
 
-  
-
 ## Execute with Docker
 In the root of the project open the terminal and execute the commands below.
 
@@ -18,6 +16,13 @@ In the root of the project open the terminal and execute the commands below.
 
 	$ docker run -p 3000:3000 -v $(pwd):/app app-test
 
-  
-
 With your browser access the path localhost:3000 to verify your API.
+
+## Execute with Docker Compose
+In the root of the project open the terminal and execute the commands below.
+
+	# Up to date all containers.
+	
+	$ docker-compose up --build
+
+With your browser access the path localhost:3000 to verify your API or acess localhost:8081 to acess the mongo express an client service to manager MongoDB.
